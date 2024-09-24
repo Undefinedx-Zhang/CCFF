@@ -1,0 +1,95 @@
+{
+    "diff_lrs": true,
+    "experim_name": "CCFF_all_20",
+    "lr_scheduler": "Poly",
+    "model": {
+        "backbone": "resnet50",
+        "confidence_thr": 0.95,
+        "method": "CCFF"
+    },
+    "n_gpu": 1,
+    "name": "SemiCD-WHU-CD",
+    "optimizer": {
+        "args": {
+            "lr": 0.01,
+            "momentum": 0.9,
+            "weight_decay": 0.0001
+        },
+        "type": "SGD"
+    },
+    "percent": 20,
+    "pretrained": true,
+    "ramp_up": 0.1,
+    "train_supervised": {
+        "aug_type": "all",
+        "augment": "weak",
+        "base_size": 256,
+        "crop_size": 256,
+        "data_dir": "E:\\sci_file\\Data\\WHU-CD-256",
+        "flip": true,
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "percnt_lbl": 20,
+        "rotate": true,
+        "scale": true,
+        "split": "train_supervised",
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    },
+    "train_unsupervised": {
+        "aug_type": "all",
+        "augment": "strong",
+        "base_size": 256,
+        "crop_size": 256,
+        "data_dir": "E:\\sci_file\\Data\\WHU-CD-256",
+        "flip": true,
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "percnt_lbl": 20,
+        "rotate": true,
+        "scale": true,
+        "split": "train_unsupervised",
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    },
+    "trainer": {
+        "early_stop": 10,
+        "epochs": 80,
+        "log_dir": "Output/W",
+        "log_per_iter": 20,
+        "monitor": "max Mean_IoU",
+        "save_dir": "Output/W",
+        "save_period": 5,
+        "tensorboardX": true,
+        "val": true,
+        "val_per_epochs": 5
+    },
+    "val_loader": {
+        "aug_type": "all",
+        "data_dir": "E:\\sci_file\\Data\\WHU-CD-256",
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "split": "val",
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ],
+        "val": true
+    }
+}
