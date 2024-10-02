@@ -1,4 +1,4 @@
-from Cross_domain.backbone.resnet import resnet50, resnet101
+from CTCD.backbone.resnet import resnet50, resnet101
 
 from torch import nn
 import torch.nn.functional as F
