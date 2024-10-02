@@ -52,7 +52,7 @@ python train.py --config configs/config_LEVIR.json
  
 The following table summarizes the **required changes** in ``config`` file to train a model with different percentage of labeled data. 
 
-| Setting | Required changes in `config_LEVIR.json` or `config_WHU.json` file |
+| Setting | Required changes|
 | --- | --- |
 | Semi-upervised - 5% labeled data | sup_percent= `5`|
 | Semi-upervised - 10% labeled data | sup_percent= `10`|
