@@ -29,10 +29,31 @@ The processed LEVIR-CD dataset, and supervised-unsupervised splits can be downlo
 
 The processed WHU-CD dataset, and supervised-unsupervised splits can be downloaded [`here`](https://www.dropbox.com/s/r76a00jcxp5d3hl/WHU-CD-256.zip?dl=0)
 
-to the folder "CCFF/datasets".
+to the folder "CCFF/datasets/LEVIR-CD256" and "CCFF/datasets/WHU-CD-256". Additionally, the "list" files have been prepared.
 
 ---
 
-Acknowledgements
 
-This code is based on "https://github.com/zxt9/FPA-SSCD"  
+## Citation
+
+If you find this repo useful for your research, please consider citing the paper as follows:
+
+```
+@ARTICLE{10693550,
+  author={Zhang, Dongjie and Hong, Yuting and Qiu, Xiaojie and Dong, Li and Yan, Diqun and Peng, Chengbin},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={C2F2: Cross-Task Cross-Domain Feature Fusion for Semi-Supervised Change Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Standards;Feature extraction;Decoding;Training;Accuracy;Semisupervised learning;Supervised learning;change detection;remote sensing;semi-supervised learning;cross-task cross-domain models},
+  doi={10.1109/LGRS.2024.3467260}}
+  
+```
+---
+
+## Acknowledgements
+
+This code is based on "https://github.com/zxt9/FPA-SSCD"  .
+
