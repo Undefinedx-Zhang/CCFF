@@ -28,7 +28,7 @@ Please download the following ".pth" files :
 
 CTCD pre-training weight can be obtained refer to [this project](https://github.com/xiaoqiang-lu/LSST)
 
-Optimal parameters for our model can be downloaded [here](https://pan.baidu.com/s/15k_c4KtkgSrCAi0U4LsnXA) (passwords:7721)
+Optimal parameters for our model can be downloaded [here](https://pan.baidu.com/s/15k_c4KtkgSrCAi0U4LsnXA) (code:7721)
 
 
 
@@ -49,6 +49,15 @@ Then simply run:
 ```
 python train.py --config configs/config_LEVIR.json
 ```
+ 
+The following table summarizes the **required changes** in ``config`` file to train a model with different percentage of labeled data. 
+
+| Setting | Required changes in `config_LEVIR.json` or `config_WHU.json` file |
+| --- | --- |
+| Semi-upervised - 5% labeled data | sup_percent= `5`|
+| Semi-upervised - 10% labeled data | sup_percent= `10`|
+| Semi-upervised - 20% labeled data | sup_percent= `20`|
+| Semi-upervised - 40% labeled data | sup_percent= `40`|
 
 ---
 
