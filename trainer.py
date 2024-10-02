@@ -14,7 +14,7 @@ from tqdm import tqdm
 from PIL import Image
 from utils.helpers import DeNormalize
 import torch.nn as nn
-from Cross_domain.semseg.deeplabv3plus import DeepLabV3Plus
+from CTCD.semseg.deeplabv3plus import DeepLabV3Plus
 
 
 class Trainer(BaseTrainer):
