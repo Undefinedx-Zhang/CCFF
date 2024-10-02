@@ -8,6 +8,15 @@ In this study, we propose to enhance traditional semi-supervised learning framew
 
 ---
 
+## Requirements
+
+```
+git clone 
+
+
+```
+---
+
 ## Link
 
 Please download the following ".pth" files :
