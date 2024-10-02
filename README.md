@@ -11,13 +11,14 @@ In this study, we propose to enhance traditional semi-supervised learning framew
 ## Requirements
 
 ```
-git clone 
+git clone https://github.com/Undefinedx-Zhang/CCFF.git
 
-
+pip install -r requirements.txt
 ```
+
 ---
 
-## Link
+## Preparing
 
 Please download the following ".pth" files :
 
@@ -42,6 +43,14 @@ to the folder "CCFF/datasets/LEVIR-CD256" and "CCFF/datasets/WHU-CD-256". Additi
 
 ---
 
+## Training 
+
+Then simply run:
+```
+python train.py --config configs/config_LEVIR.json
+```
+
+---
 
 ## Citation
 
