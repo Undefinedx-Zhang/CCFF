@@ -58,8 +58,6 @@ class CCFF(BaseModel):
 
         else:
             #Supervised loss
-
-            # Standard Supervised loss
             out_feat_l=self.encoder(A_l,B_l)
             out_l = self.decoder(out_feat_l)
             loss_l_1 = self.loss_l(out_l, target_l)
@@ -69,11 +67,11 @@ class CCFF(BaseModel):
             WAB_l = torch.cat((WA_l_Cross, WB_l_Cross), dim=1)
             Cross_l = self.concatDecoder(out_feat_l.detach_(), WAB_l)
             loss_l_2 = self.loss_l(Cross_l, target_l)
-            # Overall Unsupervised Loss
+            # Overall supervised Loss
             loss_l=loss_l_1+loss_l_2
 
             # Unsupervised loss
-
+            
             weak_feat_ul = self.encoder(WA_ul, WB_ul)
             weak_out_ul = self.decoder(weak_feat_ul)
             strong_feat_ul = self.encoder(SA_ul, SB_ul)
