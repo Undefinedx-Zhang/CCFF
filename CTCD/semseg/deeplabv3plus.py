@@ -1,4 +1,4 @@
-from Cross_domain.semseg.base import BaseNet
+from CTCD.semseg.base import BaseNet
 
 import torch
 from torch import nn
