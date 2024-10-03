@@ -82,5 +82,5 @@ If you find this repo useful for your research, please consider citing the paper
 
 ## Acknowledgements
 
-This code is based on "https://github.com/zxt9/FPA-SSCD"  .
+This code is based on [https://github.com/zxt9/FPA-SSCD](https://github.com/zxt9/FPA-SSCD)  and [https://github.com/xiaoqiang-lu/LSST](https://github.com/xiaoqiang-lu/LSST).
 
