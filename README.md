@@ -26,9 +26,9 @@ Please download the following ".pth" files :
 
 ["resnet101-63fe2227.pth"](https://download.pytorch.org/models/resnet101-63fe2227.pth) to the "CCFF/CTCD/backbone/pretrained". 
 
-CTCD pre-training weight can be obtained refer to [this project](https://github.com/xiaoqiang-lu/LSST)
+CTCD pre-training weight can be trained by yourself from [the repo](https://github.com/xiaoqiang-lu/LSST) or directly downloaded from [here](https://pan.baidu.com/s/15k_c4KtkgSrCAi0U4LsnXA) (code:7721).
 
-Optimal parameters for our model can be downloaded [here](https://pan.baidu.com/s/15k_c4KtkgSrCAi0U4LsnXA) (code:7721)
+Additionally, optimal parameters for our model can be downloaded [here](https://pan.baidu.com/s/15k_c4KtkgSrCAi0U4LsnXA) (code:7721).
 
 
 
