@@ -39,7 +39,7 @@ The processed LEVIR-CD dataset, and supervised-unsupervised splits can be downlo
 
 The processed WHU-CD dataset, and supervised-unsupervised splits can be downloaded [`here`](https://www.dropbox.com/s/r76a00jcxp5d3hl/WHU-CD-256.zip?dl=0)
 
-to the folder "CCFF/datasets/LEVIR-CD256" and "CCFF/datasets/WHU-CD-256". Additionally, the "list" files have been prepared.
+to the folder "CCFF/datasets".
 
 ---
 
