@@ -1,6 +1,6 @@
 # C<sup>2</sup>F<sup>2</sup>:Cross-Task Cross-Domain Feature Fusion for Semi-Supervised Change Detection
 
-This is the code of D. Zhang , “C<sup>2</sup>F<sup>2</sup>:Cross-Task Cross-Domain Feature Fusion for Semi-Supervised Change Detection” IEEE Transactions on Geoscience and Remote Sensing Letters.
+This is the code of D. Zhang , “C<sup>2</sup>F<sup>2</sup>:Cross-Task Cross-Domain Feature Fusion for Semi-Supervised Change Detection” IEEE Geoscience and Remote Sensing Letters.
 
 ## Introduction
 In this study, we propose to enhance traditional semi-supervised learning frameworks by leveraging cross-task cross-domain (CTCD) models, which generate complementary features that differ from standard hidden features. The procedure is as follows. Firstly, the standard features obtained from a traditional encoding-decoding structure are fused with attention-augmented complementary features. Secondly, a secondary decoder maps the fused heterogeneous features into the label space to obtain high-quality pseudo-labels, offering more precise guidance for semi-supervised learning on traditional structures. This approach improves pseudo-labels by leveraging the strength of CTCD models, including large pre-trained models, to enhance the semi-supervised learning process of domain-specific and task-specific models. Experimental results on benchmark datasets demonstrate that our proposed approach surpasses state-of-the-art methods.
