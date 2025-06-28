@@ -80,4 +80,3 @@ if __name__=='__main__':
     gpu = args.gpu
     aug_type = args.aug_type
     main(config, args.resume, gpu, aug_type)
-    print("done")
